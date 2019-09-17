@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: monospace;
+  font-family: Verdana, Geneva, sans-serif;
+  color: ghostwhite;
 }
 .head {
   text-align: right;
@@ -103,12 +105,20 @@ h1
   font-size: 13px;
   text-transform: uppercase;
 }
+.button:hover {
+  background-color:gray;
+  color: antiquewhite;
+}
 
 .btn-one
 {
   background-color: darkcyan;
   font-family:"Roboto", sans-serif;
   text-align: center;
+  color: blueviolet;
+  text-decoration: none;
+  display: block;
+  padding: 14px 16px;
 }
 
 .btn-two
@@ -116,11 +126,11 @@ h1
   font-family: "Roboto", sans-serif;
 }
 
-.btn-two:hover
+/*.btn-two:hover
 {
   background-color: darkcyan;
   transition: all 0.5s ease-in; 
-}
+}*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -143,14 +153,17 @@ ul {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: black;
 }
 
 #projects ul li a {
-  color: black;
+  color: ghostwhite;
   text-decoration: none;
+  padding: 10px;
 }
-
+.pad {
+  padding: 20px;
+}
 /*.header {
   background-color: #F1F1F1;
   text-align: center;
@@ -166,13 +179,13 @@ li a:hover {
 
 footer
 {
-  position: fixed;
+  
    left: 0;
-   bottom: 0;
    width: 100%;
    background-color: black;
    color: whitesmoke;
    text-align: center;
    font-size: 20px;
-
+   bottom: 0px;
+   padding: 10px;
 }
